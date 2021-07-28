@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace Day21_UserRegistrationExceptionHandling
 { 
-        public class Patterns
+    public class Patterns
         {
             public static string REGEX_FIRSTNAME = "^[A-Z]{1}[a-z]{2,}";
             public bool ValidateFirstName(string firstName)
