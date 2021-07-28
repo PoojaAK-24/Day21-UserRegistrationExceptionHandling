@@ -45,6 +45,7 @@ namespace TestProject1
             catch (UserRegistrationCustomException e)
             {
                 Assert.AreEqual("Invalid Email ID", e.Message);
+            
             }
         }
     }
