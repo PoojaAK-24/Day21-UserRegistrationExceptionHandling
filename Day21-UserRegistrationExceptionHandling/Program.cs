@@ -23,6 +23,7 @@ namespace Day21_UserRegistrationExceptionHandling
             Console.WriteLine("Enter Password:");
             string password = Console.ReadLine();
             Console.WriteLine("Password:" + patternsMatch.ValidatePassword(password));
+        
         }
     }
 }
