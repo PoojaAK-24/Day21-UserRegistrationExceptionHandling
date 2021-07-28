@@ -60,6 +60,7 @@ namespace TestProject1
                 Assert.AreEqual("Invalid Mobile Number", e.Message);
             }
         }
+
         [TestMethod]
         public void GivenPassword_ShouldThrow_UserRegistrationCustomException()
         {
