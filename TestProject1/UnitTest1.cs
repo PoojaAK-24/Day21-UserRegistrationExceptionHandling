@@ -35,7 +35,7 @@ namespace TestProject1
             }
         }
         [TestMethod]
-        public void GivenNullEmailID_ShouldThrow_UserRegistrationCustomException()
+        public void GivenEmailID_ShouldThrow_UserRegistrationCustomException()
         {
             try
             {
@@ -45,7 +45,19 @@ namespace TestProject1
             catch (UserRegistrationCustomException e)
             {
                 Assert.AreEqual("Invalid Email ID", e.Message);
-            
+            }
+        }
+        [TestMethod]
+        public void GivenMobileNumber_ShouldThrow_UserRegistrationCustomException()
+        {
+            try
+            {
+                bool expected = true;
+                Assert.AreEqual(expected, patternsMatch.ValidateMobileNumber(null));
+            }
+            catch (UserRegistrationCustomException e)
+            {
+                Assert.AreEqual("Invalid Mobile Number", e.Message);
             }
         }
     }
