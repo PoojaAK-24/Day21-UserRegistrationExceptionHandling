@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day21-UserRegistrationExceptionHandling", "Day21-UserRegistrationExceptionHandling\Day21-UserRegistrationExceptionHandling.csproj", "{DB940AEB-C532-432A-9C01-40CA86BFDA88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{D4A40774-067D-4866-B91C-3069CF12D694}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB940AEB-C532-432A-9C01-40CA86BFDA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB940AEB-C532-432A-9C01-40CA86BFDA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB940AEB-C532-432A-9C01-40CA86BFDA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB940AEB-C532-432A-9C01-40CA86BFDA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4A40774-067D-4866-B91C-3069CF12D694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A40774-067D-4866-B91C-3069CF12D694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A40774-067D-4866-B91C-3069CF12D694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A40774-067D-4866-B91C-3069CF12D694}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB1A26D7-730F-47AD-838E-E7D435B3E2A8}
+	EndGlobalSection
+EndGlobal
