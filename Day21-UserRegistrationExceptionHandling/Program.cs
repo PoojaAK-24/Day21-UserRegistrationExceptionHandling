@@ -6,7 +6,7 @@ namespace Day21_UserRegistrationExceptionHandling
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to User Registration Exception Problem!");
+            Console.WriteLine("*Welcome to User Registration Exception Problem*");
             Patterns patternsMatch = new Patterns();
             Console.WriteLine("Enter FirstName:");
             string firstName = Console.ReadLine();
