@@ -19,6 +19,7 @@ namespace TestProject1
             catch (UserRegistrationCustomException e)
             {
                 Assert.AreEqual("Invalid FirstName", e.Message);
+            
             }
         }
     }
