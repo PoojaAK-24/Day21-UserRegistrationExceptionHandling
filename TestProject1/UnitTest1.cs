@@ -21,6 +21,7 @@ namespace TestProject1
                 Assert.AreEqual("Invalid FirstName", e.Message);
             }
         }
+
         [TestMethod]
         public void GivenLastName_ShouldThrow_UserRegistrationCustomException()
         {
