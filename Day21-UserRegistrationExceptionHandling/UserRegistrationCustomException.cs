@@ -14,7 +14,6 @@ namespace Day21_UserRegistrationExceptionHandling
         public UserRegistrationCustomException(ExceptionsType Type, string message) : base(message)
         {
             this.type = Type;
-        
         }
     }
 }
